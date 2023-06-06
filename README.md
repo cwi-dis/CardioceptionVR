@@ -16,6 +16,7 @@ Coming soon.
 - BibTex
 ```
 Coming soon.
+```
 
 ## Set up
 
