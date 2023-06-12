@@ -20,9 +20,9 @@ Coming soon.
 
 ## Set up
 
-Once you have made a copy of this repo, you can use unity editor version 2020.3 to run it. This project was never intended to be 'built' and I always ran it from the editor so that I could monitor the console easily. This project was built off of the excite-o-meter framework (see [here](https://sites.google.com/view/exciteometer/) and [here](https://github.com/luisqtr/exciteometer) for it's documentation and [here](https://ieeexplore.ieee.org/document/9583798) for a paper about it). The 'main experiment' scene will not function unless there is an ECG stream detected from the polarH10 sensor. In order to set up the sensor so that it can stream to unity, see [this documentation](https://github.com/luisqtr/exciteometer/blob/main/docs/2_SetupDevices.md)*. 
+Once you have made a copy of this repo, you can use Unity editor version 2020.3 to run it. This project was never intended to be 'built', and wa always run from the editor to allow easy monitoring of the console. This project was based on the Excite-O-Meter framework (see [here](https://sites.google.com/view/exciteometer/) and [here](https://github.com/luisqtr/exciteometer) for its documentation and [here](https://ieeexplore.ieee.org/document/9583798) for a paper about it). The 'main experiment' scene will not function unless there is an ECG stream detected from the Polar H10 monitor. In order to set up the sensor so that it can stream to Unity, see [this documentation](https://github.com/luisqtr/exciteometer/blob/main/docs/2_SetupDevices.md)*.
 
-There are three modalities as part of the 'main experiment': an audio only condition, visual condition, and audio-visual condition. The order in which these modalities occur is set by the particpant ID. see "Guide to Counterbalancing" below to control the order. The default setting for number of trials in each condition is set at 15, but this can be changed under the `canvas -> heart` game object in the 'main practice' scene. 
+There are three modalities as part of the 'main experiment': an audio only condition, visual condition, and audio-visual condition. The order in which these modalities occur is set by the particpant ID, which automatically assigns the correct counterbalancing order. The default setting for number of trials in each condition is set at 15, but this can be changed under the `canvas -> heart` game object in the 'main practice' scene.
 
 The scene order is set as follows: 
 
@@ -35,7 +35,7 @@ The scene order is set as follows:
 7) Break Between Blocks****
 8) Survey Scene
 
-*For this experiment, we used the desktop computer to stream data from the sensor, and not the mobile option. 
+*For this experiment, we used a desktop computer to stream data from the sensor, and not the mobile option.
 
 ** 'Main Practice' and 'Rate-Confidence Questions' are shown for as many trial numbers that are set, where the default is set at 5, which can be changed under `canvas(1) -> circle`. So the participant would see a Main Practice scene, then the Rate-Confidence Questions scene repeated for the number of trials.
 
@@ -56,7 +56,7 @@ See [this document](https://docs.google.com/document/d/1pZU_3bVSRl4_6hC2f2UO7JVB
 
 ## Troubleshooting
 
-**PolarH10 issues:** The PolarH10 stream may become disconnected during the experiment. If this happens during the 'Main Experiment' scene, then an error will be shown in the console stating that the ECG stream has become disconnected. Usually, this happens because the sensor has become dried out. To fix, add more water to the sensor. As soon as ECG data starts streaming again, the heartbeat will begin again on its own, no action needed on the experimentor's part. 
+**Polar H10 Issues:** The Polar H10 stream may become disconnected during the experiment. If this happens during the 'Main Experiment' scene, then an error will be shown in the console stating that the ECG stream has become disconnected. Usually, this happens because the sensor has become dried out. To fix this, just rewet the sensor. As soon as ECG data starts streaming again, the heartbeat will begin again on its own, with no action needed from the experimentor.
 
-**Unity Setup Issues:** If there is no headset connected to unity through the steam engine, then the program will not work. If SteamVR seems to be functioning like normal and the problem persists, you may have to re-download the SteamVR Plugin 
+**Unity Setup Issues:** If there is no headset connected to Unity through the Steam engine, then the program will not work. If SteamVR seems to be functioning as normal and the problem persists, you may have to re-download the SteamVR Plugin.
 
