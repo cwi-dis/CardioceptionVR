@@ -18,7 +18,7 @@ Coming soon.
 Coming soon.
 ```
 
-## Set up
+## Unity Setup
 
 Once you have made a copy of this repo, you can use Unity editor version 2020.3 to run it. This project was never intended to be 'built', and wa always run from the editor to allow easy monitoring of the console. This project was based on the Excite-O-Meter framework (see [here](https://sites.google.com/view/exciteometer/) and [here](https://github.com/luisqtr/exciteometer) for its documentation and [here](https://ieeexplore.ieee.org/document/9583798) for a paper about it). The 'main experiment' scene will not function unless there is an ECG stream detected from the Polar H10 monitor. In order to set up the sensor so that it can stream to Unity, see [this documentation](https://github.com/luisqtr/exciteometer/blob/main/docs/2_SetupDevices.md)*.
 
