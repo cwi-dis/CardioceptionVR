@@ -43,12 +43,12 @@ The scene order is set as follows:
 
 ****The 'Break Between Blocks' scene occurs between each modality change
 
-## Guide to Counterbalacing
+<!-- ## Guide to Counterbalancing
 
 In order to avoid manually changing the modality order and whether the first heart rate is real or fake, counterbalanced modality order and real/fake starting condition is determined by the participant number. 
 
 If the PID is divisible by 2, then the starting condition is real, so all even numbered participants have a real starting condition.
-The modality ordering is determined by taking PID % 6, and using that number to index the list ["avc", "acv", "vac", "vca", "cav", "cva"].
+The modality ordering is determined by taking PID % 6, and using that number to index the list ["avc", "acv", "vac", "vca", "cav", "cva"]. -->
 
 ## Running the experiment
 
