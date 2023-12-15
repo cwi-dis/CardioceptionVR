@@ -11,11 +11,19 @@ Code clean up is still under way. None of the `Assets` are included in this repo
 Please cite our paper in any published work that uses this dataset as follows：
 - Plain Text
 ```
-Coming soon.
+A. El Ali, R. Ney, Z. M. C. van Berlo and P. Cesar, "Is that My Heartbeat? Measuring and Understanding Modality-Dependent Cardiac Interoception in Virtual Reality," in IEEE Transactions on Visualization and Computer Graphics, vol. 29, no. 11, pp. 4805-4815, Nov. 2023, doi: 10.1109/TVCG.2023.3320228.
 ```
 - BibTex
 ```
-Coming soon.
+@ARTICLE{10268499,
+  author={El Ali, Abdallah and Ney, Rayna and van Berlo, Zeph M. C. and Cesar, Pablo},
+  journal={IEEE Transactions on Visualization and Computer Graphics}, 
+  title={Is that My Heartbeat? Measuring and Understanding Modality-Dependent Cardiac Interoception in Virtual Reality}, 
+  year={2023},
+  volume={29},
+  number={11},
+  pages={4805-4815},
+  doi={10.1109/TVCG.2023.3320228}}
 ```
 
 ## Unity Setup
