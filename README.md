@@ -60,7 +60,7 @@ The modality ordering is determined by taking PID % 6, and using that number to 
 
 ## Running the experiment
 
-See [this document](https://docs.google.com/document/d/1pZU_3bVSRl4_6hC2f2UO7JVBU-rDykZ8SOhFMcOgvBA/edit?usp=sharing) for precise steps on how to run this experiment in its entirety.
+See [this document](https://docs.google.com/document/d/1pnJsRg0X0yFcPdSIuT56ANHQ9Koj8qyOZ-t0a1Pstk0/edit?usp=sharing) for precise steps on how to run this experiment in its entirety.
 
 ## Troubleshooting
 
